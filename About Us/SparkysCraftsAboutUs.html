@@ -1,0 +1,174 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+a.foot {
+  font-size: 200%;
+  align: left;
+  color: black;
+  border: none;
+}
+* {
+    box-sizing: border-box;
+	border-radius: 20px;
+}
+
+/* Style the Logo */
+.logo {
+	align: left;
+	width: 25%;
+	height: 25%;
+}
+img {
+	width: 100%;
+	height: 60%
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: red;
+	align: top;
+	float: right;
+	width: 30%;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+	border: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+body {
+  background-color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 25%;
+}
+
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 50%;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.leftcard {
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+p {
+	color: red;
+	text-align: center;
+	font-size: 25;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: red;
+    margin-top: 20px;
+}
+
+</style>
+</head>
+<body>
+
+
+</body>
+
+<body>
+
+</div>
+<img src="img_SparkyLogo.png" alt="60" class="logo">
+<div class="topnav">
+  <a href="/Users/tjbna/OneDrive/Documents/Sparky`sCrafts/Home Page/SparkysCraftsHomePage.html">Return Home</a>
+  <a href="https://betruetotheglue.blogspot.com/2017/12/yummy-or-not.html">My Blog</a>
+  <a href="https://www.pinterest.com/KikiDemonStyle/creations-and-diy-crafts">MyPinterest</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="leftcard">
+	
+    </div>
+  </div>
+  
+    <div class="rightcolumn">
+	<p>About Us</p>
+    <div class="card">
+	<p>Sparky`s Crafts/DIYs are made by me(Laura) and my mother(Lena)<p>
+	<p>Contact Us: <P>
+
+    </div>
+  </div>
+  
+</div>
+
+
+</body>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</html>
