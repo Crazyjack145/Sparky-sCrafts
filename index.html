@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
 
-	
+
 * {
     box-sizing: border-box;
 }
@@ -34,7 +34,7 @@ float: right;
 
 a {
 padding-right: 20px;
-color: black;
+color: white;
 font-style: italic;
 font-family: "Times New Roman", Times, serif;
 float: right;
@@ -129,7 +129,6 @@ body {
 
 /* Create two equal columns that sits next to each other */
 .column {
-    -ms-flex: 50%; /* IE 10 */
     flex: 25%;
     padding: 0 4px;
 }
@@ -139,6 +138,13 @@ body {
     vertical-align: middle;
 	border: 10px solid black;
 	width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+    .column {   
+        flex: 50%;
+        padding: 0 4px;
+    }
 }
 
 /* Style the buttons */
@@ -159,7 +165,7 @@ body {
 
 .btn.active {
     background-color: red;
-    color: black;
+    color: white;
 }
 
 
@@ -180,8 +186,8 @@ body {
 }
 
 #myBtn:hover {
-    background-color: black; /* Add a dark-grey background on hover */
-	color: white; /*change text color to red*/
+    background-color: black; 
+	color: white; 
 }
 
 
@@ -267,12 +273,6 @@ font-family: "Times New Roman", Times, serif;
 font-size: 23px;
 
 }
-@media screen and (max-width: 400px) {
-    .column {
-        float: none;
-        width: 100%;
-    }
-}
 
 </style>
 </head>
@@ -326,107 +326,107 @@ font-size: 23px;
 <div id="allcrafts" class="three" style="display:none">
  <div class="row"> 
   <div class="column">
-      <img src="Img_BabySweetsTable.jpg" >
-      <img src="Img_BabyCenterPieces2.jpg">
-	  <img src="Img_bouquet5.jpg">
+      <img src="img_BabySweetsTable.jpg" >
+      <img src="img_BabyCenterPieces2.jpg">
+	  <img src="img_Bouquet5.jpg">
 	  <img src="img_nameplate2.jpg" >
-	  <img src="Img_Centerpiece.jpg" >
-      <img src="Img_DiaperCake4.jpg" >
+	  <img src="img_Centerpiece.jpg" >
+      <img src="img_DiaperCake4.jpg" >
 	  <img src="img_cupcakestand.jpg" >
-	  <img src="Img_CribcardHolder.jpg" >
-	  <img src="Img_towelCake.jpg" >
-	  <img src="Img_cakeslice.jpg" >
-	  <img src="Img_Stroller.jpg" >
-	  <img src="Img_tophats.jpg" >
-	  <img src="Img_Dresspen.jpg" >
-	  <img src="Img_cake3.jpg" >
-	  <img src="Img_bouquet2.jpg" >
-	  <img src="Img_Ghats.jpg" >
-	  <img src="Img_guitar.jpg">
-	  <img src="Img_Icecream.jpg">
+	  <img src="img_CribcardHolder.jpg" >
+	  <img src="img_towelCake.jpg" >
+	  <img src="img_cakeslice.jpg" >
+	  <img src="img_Stroller.jpg" >
+	  <img src="img_tophats.jpg" >
+	  <img src="img_Dresspen.jpg" >
+	  <img src="img_cake3.jpg" >
+	  <img src="img_Bouquet2.jpg" >
+	  <img src="img_Ghats.jpg" >
+	  <img src="img_guitar.jpg">
+	  <img src="img_icecream.jpg">
 	  <img src="img_DiaperBike.jpg">
-	  <img src="Img_BSCenter.jpg">
-	  <img src="Img_letterplate.jpg">
-	  <img src="Img_Toast.jpg">
+	  <img src="img_BSCenter.jpg">
+	  <img src="img_letterplate.jpg">
+	  <img src="img_Toast.jpg">
   </div>
   <div class="column">
-      <img src="Img_BabyCenterPieces.jpg" >
-	  <img src="Img_BabySweetsTable.jpg" >
-	  <img src="Img_BabyCenterPieces2.jpg" >
-	  <img src="Img_bigTray.jpg" >
-	  <img src="Img_Valentines3.jpg" style="width:100%">
-	  <img src="Img_bouquet13.jpg" style="width:100%">
-	  <img src="img_CardStockCheesecake.png" style="width:100%">
-	  <img src="img_Mug.jpg" style="width:100%">
-	  <img src="Img_CCTray.jpg" style="width:100%">
-	  <img src="Img_Cake.jpg" style="width:100%">
-	  <img src="Img_Cake8.jpg" style="width:100%">
-	  <img src="Img_Valentines4.jpg" style="width:100%">
-	  <img src="Img_Diapercake2.jpg" style="width:100%">
-	  <img src="Img_bouquet3.jpg" style="width:100%">
-	  <img src="Img_cardboxWed.jpg" style="width:100%">
-	  <img src="Img_CasinoPapercake.jpg" style="width:100%">
-	  <img src="Img_Centerpiece.jpg" style="width:100%">
-	  <img src="Img_Crown.jpg" style="width:100%">
-	  <img src="Img_DiaperCake3.jpg" style="width:100%">
-	  <img src="Img_Mailbox.jpg" style="width:100%">
-	  <img src="Img_LEDoverwatch2.jpg" style="width:100%">
-	 </div>
+      <img src="img_BabyCenterPieces.jpg" >
+	  <img src="img_BabySweetsTable.jpg" >
+	  <img src="img_BabyCenterPieces2.jpg" >
+	  <img src="img_BigTray.jpg" >
+	  <img src="img_Valentines3.jpg">
+	  <img src="img_bouquet13.jpg">
+	  <img src="img_CardstockCheesecake.png" >
+	  <img src="img_Mug.jpg" >
+	  <img src="img_CCTray.jpg" >
+	  <img src="img_Cake.jpg" >
+	  <img src="img_Cake8.jpg" >
+	  <img src="img_Valentines4.jpg" >
+	  <img src="img_Diapercake2.jpg" style="width:100%">
+	  <img src="img_Bouquet3.jpg" style="width:100%">
+	  <img src="img_cardboxWed.jpg" style="width:100%">
+	  <img src="img_CasinoPapercake.jpg" style="width:100%">
+	  <img src="img_Centerpiece.jpg" style="width:100%">
+	  <img src="img_Crown.jpg" style="width:100%">
+	  <img src="img_DiaperCake3.jpg" style="width:100%">
+	  <img src="img_Mailbox.jpg" style="width:100%">
+	  <img src="img_LEDoverwatch2.jpg" style="width:100%">
+  </div>
   <div class="column">
-      <img src="Img_BabyDoorDecor.jpg" >
-	  <img src="Img_BabyCenterPieces.jpg" >
-	  <img src="Img_BabyDoorDecor.jpg" style="width:100%">
-	  <img src="Img_bouquet8.jpg" style="width:100%">
-	  <img src="Img_ChurchCupcakestand.jpg" style="width:100%">
-	  <img src="Img_ps4.jpg" style="width:100%">
-	  <img src="Img_BabyBoyDecor.jpg" style="width:100%">
-	  <img src="Img_Displaybox.png" style="width:100%">
-	  <img src="Img_Displaybox2.png" style="width:100%">
-	  <img src="Img_Cat.jpg" style="width:100%">
-	  <img src="Img_bread.jpg" style="width:100%">
-	  <img src="Img_Diaperchairs.jpg" style="width:100%">
-	  <img src="Img_bouquet1.jpg" style="width:100%">
-	  <img src="Img_Carriage.jpg" style="width:100%">
-	  <img src="Img_bouquet4.jpg" style="width:100%">
-	  <img src="Img_bouquet7.jpg" style="width:100%">
-	  <img src="Img_Gradbox.jpg" style="width:100%">
-	  <img src="Img_Cardbox50.jpg" style="width:100%">
-	  <img src="Img_HalloweenTray.jpg" style="width:100%">
-      <img src="Img_65.jpg" style="width:100%">
-	  <img src="Img_Valentines2.jpg" style="width:100%">
-	  <img src="Img_Sweetheartcandies.jpg" style="width:100%">
-	  <img src="Img_LEDoverwatch.jpg" style="width:100%">
-	  <img src="Img_Pencil.jpg" style="width:100%">
-	  <img src="Img_stage.jpg" style="width:100%">
-	  <img src="Img_Dresspen4.jpg" style="width:100%">
-	 </div>
+      <img src="img_BabyDoorDecor.jpg" >
+	  <img src="img_BabyCenterPieces.jpg" >
+	  <img src="img_BabyDoorDecor.jpg" >
+	  <img src="img_bouquet8.jpg" >
+	  <img src="img_ChurchCupcakestand.jpg" >
+	  <img src="img_ps4.jpg" style="width:100%">
+	  <img src="img_BabyBoyDecor.jpg" style="width:100%">
+	  <img src="img_Displaybox.png" style="width:100%">
+	  <img src="img_Displaybox2.png" style="width:100%">
+	  <img src="img_Cat.jpg" style="width:100%">
+	  <img src="img_bread.jpg" style="width:100%">
+	  <img src="img_Diaperchairs.jpg" style="width:100%">
+	  <img src="img_bouquet1.jpg" style="width:100%">
+	  <img src="img_Carriage.jpg" style="width:100%">
+	  <img src="img_bouquet4.jpg" style="width:100%">
+	  <img src="img_bouquet7.jpg" style="width:100%">
+	  <img src="img_Gradbox.jpg" style="width:100%">
+	  <img src="img_Cardbox50.jpg" style="width:100%">
+	  <img src="img_HalloweenTray.jpg" style="width:100%">
+      <img src="img_65.jpg" style="width:100%">
+	  <img src="img_Valentines2.jpg" style="width:100%">
+	  <img src="img_Sweetheartcandies.jpg" style="width:100%">
+	  <img src="img_LEDoverwatch.jpg" style="width:100%">
+	  <img src="img_Pencil.jpg" style="width:100%">
+	  <img src="img_stage.jpg" style="width:100%">
+	  <img src="img_Dresspen4.jpg" style="width:100%">
+   </div>
    <div class="column">
-      <img src="Img_BabyBoyDecor.jpg" >
-	  <img src="Img_BirthdayCard.jpg" style="width:100%">
-	  <img src="Img_MMwardrobe.jpg" style="width:100%">
-	  <img src="Img_TableSet.jpg" style="width:100%">
+      <img src="img_BabyBoyDecor.jpg" >
+	  <img src="img_BirthdayCard.jpg" >
+	  <img src="img_MMwardrobe.jpg" >
+	  <img src="img_TableSet.jpg" >
 	  <img src="img_nameplate.jpg" style="width:100%">
-	  <img src="Img_wedCardbox.jpg" style="width:100%">
-	  <img src="Img_flowerbasket.jpg" style="width:100%">
-      <img src="Img_bouquet12.jpg" style="width:100%">
+	  <img src="img_wedCardbox.jpg" style="width:100%">
+	  <img src="img_flowerbasket.jpg" style="width:100%">
+      <img src="img_bouquet12.jpg" style="width:100%">
 	  <img src="img_Gamecube.jpg" style="width:100%">
-	  <img src="Img_expolsionboxes.jpg" style="width:100%">
-	  <img src="Img_FlowerPen.jpg" style="width:100%">
-	  <img src="Img_Minicake.jpg" style="width:100%">
-	  <img src="Img_BCBox.jpg" style="width:100%">
-      <img src="Img_bouquet10.jpg" style="width:100%">
-	  <img src="Img_bouquet11.jpg" style="width:100%">
-	  <img src="Img_FeltSundae.jpg" style="width:100%">
-	  <img src="Img_BWBirthdayTray.jpg" style="width:100%">
+	  <img src="img_expolsionboxes.jpg" style="width:100%">
+	  <img src="img_FlowerPen.jpg" style="width:100%">
+	  <img src="img_Minicake.jpg" style="width:100%">
+	  <img src="img_BCBox.jpg" style="width:100%">
+      <img src="img_bouquet10.jpg" style="width:100%">
+	  <img src="img_bouquet11.jpg" style="width:100%">
+	  <img src="img_FeltSundae.jpg" style="width:100%">
+	  <img src="img_BWBirthdayTray.jpg" style="width:100%">
 	  <img src="img_60.jpg" style="width:100%">
-	  <img src="Img_bouquet9.jpg" style="width:100%">
-	  <img src="Img_diapercake.jpg" style="width:100%">
-	  <img src="Img_BirthdayBox.jpg" style="width:100%">
-	  <img src="Img_Halloween.jpg" style="width:100%">
-	  <img src="Img_SpellBook.jpg" style="width:100%">
-	  <img src="Img_Valentines.jpg" style="width:100%">
+	  <img src="img_Bouquet9.jpg" style="width:100%">
+	  <img src="img_diapercake.jpg" style="width:100%">
+	  <img src="img_BirthdayBox.jpg" style="width:100%">
+	  <img src="img_Halloween.jpg" style="width:100%">
+	  <img src="img_SpellBook.jpg" style="width:100%">
+	  <img src="img_Valentines.jpg" style="width:100%">
 	  <img src="img_NyHats.jpg" style="width:100%">
-	 </div>
+    </div>
   </div>
 </div>
 
@@ -434,62 +434,62 @@ font-size: 23px;
 <div id="babyshower" class="four" style="display:none"><!---THIS IS WHERE THE BABY SHOWER PICTURES START!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
  <div class="row"> 
   <div class="column">
-      <img src="Img_BabySweetsTable.jpg" >
-      <img src="Img_BabyCenterPieces2.jpg">
-	  <img src="Img_Centerpiece.jpg" >
-      <img src="Img_DiaperCake4.jpg" >
-	  <img src="Img_CribcardHolder.jpg" >
-	  <img src="Img_towelCake.jpg" >
-	  <img src="Img_Stroller.jpg" >
+      <img src="img_BabySweetsTable.jpg" >
+      <img src="img_BabyCenterPieces2.jpg">
+	  <img src="img_Centerpiece.jpg" >
+      <img src="img_DiaperCake4.jpg" >
+	  <img src="img_CribcardHolder.jpg" >
+	  <img src="img_towelCake.jpg" >
+	  <img src="img_Stroller.jpg" >
 
 
   </div>
   <div class="column">
-      <img src="Img_BabyCenterPieces.jpg" >
-	  <img src="Img_BabySweetsTable.jpg" >
-	  <img src="Img_BabyCenterPieces2.jpg" >
-	  <img src="Img_BSCenter.jpg">
-	  <img src="Img_Diaperchairs.jpg" style="width:100%">
-	  <img src="Img_Displaybox2.png" style="width:100%">
+      <img src="img_BabyCenterPieces.jpg" >
+	  <img src="img_BabySweetsTable.jpg" >
+	  <img src="img_BabyCenterPieces2.jpg" >
+	  <img src="img_BSCenter.jpg">
+	  <img src="img_Diaperchairs.jpg" style="width:100%">
+	  <img src="img_Displaybox2.png" style="width:100%">
   </div>
   <div class="column">
-      <img src="Img_BabyDoorDecor.jpg" >
-	  <img src="Img_BabyCenterPieces.jpg" >
-	  <img src="Img_BabyDoorDecor.jpg" style="width:100%">
-	  <img src="Img_BabyBoyDecor.jpg" style="width:100%">
-	  <img src="Img_Displaybox.png" style="width:100%">
+      <img src="img_BabyDoorDecor.jpg" >
+	  <img src="img_BabyCenterPieces.jpg" >
+	  <img src="img_BabyDoorDecor.jpg" style="width:100%">
+	  <img src="img_BabyBoyDecor.jpg" style="width:100%">
+	  <img src="img_Displaybox.png" style="width:100%">
 
    </div>
    <div class="column">
-      <img src="Img_BabyBoyDecor.jpg" >
-	  <img src="Img_MMwardrobe.jpg" style="width:100%">
-	  <img src="Img_diapercake.jpg" style="width:100%">
-	  <img src="Img_Diapercake2.jpg" style="width:100%">
-	  <img src="Img_Centerpiece.jpg" style="width:100%">
-	  <img src="Img_DiaperCake3.jpg" style="width:100%">
+      <img src="img_BabyBoyDecor.jpg" >
+	  <img src="img_MMwardrobe.jpg" style="width:100%">
+	  <img src="img_diapercake.jpg" style="width:100%">
+	  <img src="img_Diapercake2.jpg" style="width:100%">
+	  <img src="img_Centerpiece.jpg" style="width:100%">
+	  <img src="img_DiaperCake3.jpg" style="width:100%">
 	  <img src="img_DiaperBike.jpg">
-	 </div>
+    </div>
   </div>
 </div>
 
 <div id="bday" class="five" style="display:none"><!---THIS IS WHERE THE BIRTHDAYPARTY PICTURES START!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 <div class="row"> 
   <div class="column">
-	  <img src="Img_BirthdayCard.jpg" style="width:100%">
+	  <img src="img_BirthdayCard.jpg" style="width:100%">
   </div>
   <div class="column">	  
-  	<img src="Img_BirthdayBox.jpg" style="width:100%">
-  	<img src="Img_cake3.jpg" >
+  <img src="img_BirthdayBox.jpg" style="width:100%">
+  <img src="img_cake3.jpg" >
   </div>
   <div class="column">
-	 <img src="img_cupcakestand.jpg" >
-	 <img src="Img_Cake8.jpg" style="width:100%">
+	  	  <img src="img_cupcakestand.jpg" >
+		  <img src="img_Cake8.jpg" style="width:100%">
 		  	  
    </div>
    <div class="column">
-	  <img src="Img_CasinoPapercake.jpg" style="width:100%">
+	  <img src="img_CasinoPapercake.jpg" style="width:100%">
 	  <img src="img_60.jpg" style="width:100%">
-	  <img src="Img_65.jpg" style="width:100%">
+	  <img src="img_65.jpg" style="width:100%">
     </div>
   </div>
 </div>
@@ -497,26 +497,26 @@ font-size: 23px;
 <div id="bouquets" class="six" style="display:none"><!---THIS IS WHERE THE BIRTHDAYPARTY PICTURES START!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 <div class="row"> 
   <div class="column">
-	  <img src="Img_bouquet5.jpg">
-	  <img src="Img_bouquet4.jpg" style="width:100%">
-	  <img src="Img_bouquet7.jpg" style="width:100%">
+	  <img src="img_Bouquet5.jpg">
+	  <img src="img_bouquet4.jpg" style="width:100%">
+	  <img src="img_bouquet7.jpg" style="width:100%">
   </div>
   <div class="column">	  
-	  <img src="Img_bouquet2.jpg" >
-	  <img src="Img_bouquet12.jpg" style="width:100%">
-	  <img src="Img_bouquet9.jpg" style="width:100%">
+	  <img src="img_Bouquet2.jpg" >
+	  <img src="img_bouquet12.jpg" style="width:100%">
+	  <img src="img_Bouquet9.jpg" style="width:100%">
     
   </div>
   <div class="column">
-	  <img src="Img_bouquet13.jpg" style="width:100%">
-	  <img src="Img_bouquet1.jpg" style="width:100%">
-	  <img src="Img_bouquet10.jpg" style="width:100%">
-	  <img src="Img_bouquet11.jpg" style="width:100%">
+	  <img src="img_bouquet13.jpg" style="width:100%">
+	  <img src="img_bouquet1.jpg" style="width:100%">
+	  <img src="img_bouquet10.jpg" style="width:100%">
+	  <img src="img_bouquet11.jpg" style="width:100%">
 		  	  
    </div>
    <div class="column">
-	  <img src="Img_bouquet3.jpg" style="width:100%">
-	  <img src="Img_bouquet8.jpg" style="width:100%">
+	  <img src="img_Bouquet3.jpg" style="width:100%">
+	  <img src="img_bouquet8.jpg" style="width:100%">
 	  </div>
   </div>
 </div>
